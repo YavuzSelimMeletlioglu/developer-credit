@@ -9,7 +9,7 @@ Sitelerin footer'ında kullanılan geliştirici imzası. Bağımlılığı olmay
 ## Kurulum
 
 ```bash
-npm install github:YavuzSelimMeletlioglu/developer-credit
+npm install git+https://github.com/YavuzSelimMeletlioglu/developer-credit.git
 ```
 
 ## Kullanım

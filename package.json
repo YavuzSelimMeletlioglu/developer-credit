@@ -1,0 +1,21 @@
+{
+	"name": "developer-credit",
+	"version": "1.0.0",
+	"description": "Footer geliştirici imzası: <developer-credit lang=\"tr\"></developer-credit>",
+	"type": "module",
+	"main": "./src/developer-credit.js",
+	"types": "./src/developer-credit.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/developer-credit.d.ts",
+			"default": "./src/developer-credit.js"
+		}
+	},
+	"files": ["src"],
+	"sideEffects": true,
+	"scripts": {
+		"test": "node --test"
+	},
+	"license": "UNLICENSED",
+	"private": true
+}

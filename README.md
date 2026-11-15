@@ -4,7 +4,7 @@ Sitelerin footer'ında kullanılan geliştirici imzası. Bağımlılığı olmay
 
 > Tasarım ve kodlama: **Yavuz Selim Meletlioğlu**
 
-İsim kalındır ve LinkedIn profilini yeni sekmede açar. Metin `tr`, `en`, `de`, `ru` ve `ar` dillerinde gelir. Arapçada yön sağdan sola ayarlanır. Desteklenmeyen dil İngilizceye düşer.
+İsim kalındır ve tanıtım sitesini (meletiq.co) yeni sekmede açar. Metin `tr`, `en`, `de`, `ru` ve `ar` dillerinde gelir. Arapçada yön sağdan sola ayarlanır. Desteklenmeyen dil İngilizceye düşer.
 
 ## Kurulum
 
@@ -39,7 +39,7 @@ import 'developer-credit';
 Astro'da `<script>import 'developer-credit';</script>` ekle. Sayfa JavaScript yüklenmeden önce de link görünsün istersen etiketin içine yedek bir bağlantı koy; bileşen yüklenince içeriği kendisi değiştirir:
 
 ```html
-<developer-credit lang="tr"><a href="https://www.linkedin.com/in/yavuzselim-meletlioglu/">Yavuz Selim Meletlioğlu</a></developer-credit>
+<developer-credit lang="tr"><a href="https://meletiq.co/">Yavuz Selim Meletlioğlu</a></developer-credit>
 ```
 
 ### React

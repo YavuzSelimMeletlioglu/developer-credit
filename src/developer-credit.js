@@ -3,7 +3,7 @@
 // Sunucu tarafında (SSR) içe aktarmak güvenlidir: tarayıcı yoksa hiçbir şey tanımlamaz.
 
 export const NAME = 'Yavuz Selim Meletlioğlu';
-export const PROFILE_URL = 'https://www.linkedin.com/in/yavuzselim-meletlioglu/';
+export const PROFILE_URL = 'https://meletiq.co/';
 
 export const LABELS = {
 	tr: 'Tasarım ve kodlama:',

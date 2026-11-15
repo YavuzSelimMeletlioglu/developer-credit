@@ -22,7 +22,7 @@ test('dirOf: yalnızca Arapça sağdan sola', () => {
 	for (const l of ['tr', 'en', 'de', 'ru']) assert.equal(dirOf(l), 'ltr');
 });
 
-test('her dilin metni dolu ve LinkedIn adresi doğru', () => {
+test('her dilin metni dolu ve profil adresi doğru', () => {
 	for (const text of Object.values(LABELS)) assert.ok(text.length > 0);
-	assert.equal(PROFILE_URL, 'https://www.linkedin.com/in/yavuzselim-meletlioglu/');
+	assert.equal(PROFILE_URL, 'https://meletiq.co/');
 });
